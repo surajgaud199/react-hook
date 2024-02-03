@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Product from './component/Product';
 
 function App() {
   return (
-    <div>
+    <>
       <h1>ReactJS Hook</h1>
-    </div>
+      <Product/>
+    </>
   );
 }
 
