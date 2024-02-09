@@ -2,7 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 import Product from './component/Product';
 import Kuchhabhi from './Kuchhabhi';
-import UseMemoHook from './UseMemoHook';
+import UseMemoHook from './hook/UseMemoHook';
+// import UseContextHook from './UseState()hook';
+import UseStatehook from './hook/UseState()hook';
+import UseEffectHook from './hook/UseEffectHook';
+import UseRef from './hook/UseRef';
 
 function App() {
   return (
@@ -10,7 +14,10 @@ function App() {
       {/* <h1>ReactJS Hook</h1> */}
       {/* <Product/> */}
       {/* <Kuchhabhi/> */}
-      <UseMemoHook/>
+      {/* <UseMemoHook/> */}
+      {/* <UseStatehook/> */}
+      {/* <UseEffectHook/> */}
+      <UseRef/>
     </>
   );
 }
