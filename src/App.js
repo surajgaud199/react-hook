@@ -7,6 +7,7 @@ import UseMemoHook from './hook/UseMemoHook';
 import UseStatehook from './hook/UseState()hook';
 import UseEffectHook from './hook/UseEffectHook';
 import UseRef from './hook/UseRef';
+import UseCallbackhook from './hook/UseCallbackhook';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/* <UseMemoHook/> */}
       {/* <UseStatehook/> */}
       {/* <UseEffectHook/> */}
-      <UseRef/>
+      {/* <UseRef/> */}
+      <UseCallbackhook/>
     </>
   );
 }
